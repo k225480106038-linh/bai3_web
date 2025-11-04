@@ -1,8 +1,13 @@
-Bài tập 3   : môn Phát triển ứng dụng trên nền web
-Giảng viên  : Đỗ Duy Cốp
-Lớp học phần: 58KTPM
-Ngày giao   : 2025-10-24 13:50
-Hạn nộp     : 2025-11-05 00:00
+# Bài tập 3   : Môn phát triển ứng dụng trên nền web
+
+## Giảng viên  : Đỗ Duy Cốp
+
+## Lớp học phần: 58KTPM
+
+## Ngày giao   : 2025-10-24 13:50
+
+## Hạn nộp     : 2025-11-05 00:00
+
 --------------------------------------------------
 Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 1. Cài đặt môi trường linux: SV chọn 1 trong các phương án
@@ -11,8 +16,18 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
  - sử dụng Hyper-V: cài đặt ubuntu
  - sử dụng VMware : cài đặt ubuntu
  - sử dụng Virtual Box: cài đặt ubuntu
-2. Cài đặt Docker (nếu dùng docker desktop trên windows thì nó có ngay)
-3. Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau: 
+- Cài môi trường ảo : Sử dụng VMware : cài đặt ubuntu.
+  + Bước 1 : Cài đặt ubuntu.
+    <img width="517" height="67" alt="image" src="https://github.com/user-attachments/assets/383f1547-6135-42ad-af28-6e311c8d8983" />
+
+  + Bước 2 : Trên VMware cấu hình ubuntu
+    <img width="1847" height="966" alt="image" src="https://github.com/user-attachments/assets/831f54f1-b692-4439-9d06-6eaabcfb5623" />
+
+   
+2. Cài đặt Docker (nếu dùng docker desktop trên windows thì nó có ngay)![Uploading image.png…]()
+
+3. Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau:
+   
    mariadb (3306), phpmyadmin (8080), nodered/node-red (1880), influxdb (8086), grafana/grafana (3000), nginx (80,443)
 4. Lập trình web frontend+backend:
  SV chọn 1 trong các web sau:
