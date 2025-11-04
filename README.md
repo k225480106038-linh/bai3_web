@@ -18,11 +18,12 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
  - sử dụng Virtual Box: cài đặt ubuntu
 - Cài  enable wsl: cài đặt ubuntu
    Cài đặt ubuntu.
-    <img width="517" height="67" alt="image" src="https://github.com/user-attachments/assets/383f1547-6135-42ad-af28-6e311c8d8983" />
+    <img width="964" height="992" alt="image" src="https://github.com/user-attachments/assets/9d91a830-4590-4a5c-a271-91ae9a134321" />
+
 
 2. Cài đặt Docker (nếu dùng docker desktop trên windows thì nó có ngay)
    
-   <img width="1410" height="901" alt="image" src="https://github.com/user-attachments/assets/246ab761-6c60-4702-bc0d-6253381afd02" />
+  <img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/ca2b8e2e-a43a-43f0-94fb-6908882cfa36" />
 
 
 3. Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau:
