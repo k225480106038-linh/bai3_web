@@ -64,7 +64,7 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
    
 5. Nginx làm web-server
  - Cấu hình nginx để chạy được website qua url http://fullname.com  (thay fullname bằng chuỗi ko dấu viết liền tên của bạn)
-   <img width="1363" height="457" alt="Screenshot 2025-11-05 160018" src="https://github.com/user-attachments/assets/86eb6f26-10f6-427e-be76-5acbeda1efb8" />
+   <img width="1170" height="476" alt="image" src="https://github.com/user-attachments/assets/2754e57c-b7fa-46f9-b403-a19a85bf7a3b" />
 
    
  - Cấu hình nginx để http://fullname.com/nodered truy cập vào nodered qua cổng 80, (dù nodered đang chạy ở port 1880)
