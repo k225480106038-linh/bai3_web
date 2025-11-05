@@ -35,9 +35,13 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
  4.1 Web thương mại điện tử
  - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động.
+   <img width="1285" height="865" alt="image" src="https://github.com/user-attachments/assets/13a80ff0-c197-48ce-9d9c-87b1e43f2785" />
+
  - Có tính năng login, lưu phiên đăng nhập vào cookie và session
    Thông tin login lưu trong cơ sở dữ liệu của mariadb, được dev quản trị bằng phpmyadmin, yêu cầu sử dụng mã hoá khi gửi login.
    Chỉ cần login 1 lần, bao giờ logout thì mới phải login lại.
+   <img width="1515" height="871" alt="image" src="https://github.com/user-attachments/assets/a847134d-2dc7-491b-a2d8-7b740cb0386f" />
+
  - Có tính năng liệt kê các sản phẩm bán chạy ra trang chủ
  - Có tính năng liệt kê các nhóm sản phẩm
  - Có tính năng liệt kê sản phẩm theo nhóm
