@@ -65,14 +65,14 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
    
 5. Nginx làm web-server
  - Cấu hình nginx để chạy được website qua url http://fullname.com  (thay fullname bằng chuỗi ko dấu viết liền tên của bạn)
-   <img width="1170" height="476" alt="image" src="https://github.com/user-attachments/assets/2754e57c-b7fa-46f9-b403-a19a85bf7a3b" />
+   <img width="1425" height="666" alt="image" src="https://github.com/user-attachments/assets/a010861e-db22-409d-9a93-6aa8a75bb9dd" />
 
-   
  - Cấu hình nginx để http://fullname.com/nodered truy cập vào nodered qua cổng 80, (dù nodered đang chạy ở port 1880)
-   
- <img width="1398" height="927" alt="image" src="https://github.com/user-attachments/assets/3328c1aa-b442-4337-8135-fdeb9b935ba8" />
+  <img width="1607" height="926" alt="image" src="https://github.com/user-attachments/assets/2f80f7e1-8f72-4546-872d-51037a4ef9ec" />
+
 
  - Cấu hình nginx để http://fullname.com/grafana truy cập vào grafana qua cổng 80, (dù grafana đang chạy ở port 3000)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c927ef2-9929-4dde-b938-7d1f34efbc15" />
 
 Yêu cầu sinh viên lưu code trên github
 có file readme.md có hình ảnh + text: ghi lại nhật ký quá trình làm bài.
