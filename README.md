@@ -33,31 +33,13 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
 4. Lập trình web frontend+backend:
  SV chọn 1 trong các web sau:
-
- 4.1 Web thương mại điện tử
- - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động.
-   <img width="1285" height="865" alt="image" src="https://github.com/user-attachments/assets/13a80ff0-c197-48ce-9d9c-87b1e43f2785" />
-
- - Có tính năng login, lưu phiên đăng nhập vào cookie và session
-   Thông tin login lưu trong cơ sở dữ liệu của mariadb, được dev quản trị bằng phpmyadmin, yêu cầu sử dụng mã hoá khi gửi login.
-   Chỉ cần login 1 lần, bao giờ logout thì mới phải login lại.
-   <img width="1515" height="871" alt="image" src="https://github.com/user-attachments/assets/a847134d-2dc7-491b-a2d8-7b740cb0386f" />
-
- - Có tính năng liệt kê các sản phẩm bán chạy ra trang chủ
- - Có tính năng liệt kê các nhóm sản phẩm
- - Có tính năng liệt kê sản phẩm theo nhóm
- - Có tính năng tìm kiếm sản phẩm
- - Có tính năng chọn sản phẩm (đưa sản phẩm vào giỏ hàng, thay đổi số lượng sản phẩm trong giỏ, cập nhật tổng tiền)
- - Có tính năng đặt hàng, nhập thông tin giao hàng => được 1 đơn hàng.
- - Có tính năng dành cho admin: Thống kê xem có bao nhiêu đơn hàng, call để xác nhận và cập nhật thông tin đơn hàng. chuyển cho bộ phận đóng gói, gửi bưu điện, cập nhật mã COD, tình trạng giao hàng, huỷ hàng,...
- - Có tính năng dành cho admin: biểu đồ thống kê số lượng mặt hàng bán được trong từng ngày. (sử dụng grafana)
- - backend: sử dụng nodered xử lý request gửi lên từ javascript, phản hồi về json.
-   
  4.2 Web IOT: Giám sát dữ liệu IOT.
  - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động.
  - Có tính năng login, lưu phiên đăng nhập vào cookie và session
    Thông tin login lưu trong cơ sở dữ liệu của mariadb, được dev quản trị bằng phpmyadmin, yêu cầu sử dụng mã hoá khi gửi login.
    Chỉ cần login 1 lần, bao giờ logout thì mới phải login lại.
+   <img width="1806" height="895" alt="image" src="https://github.com/user-attachments/assets/bd12cddf-1e61-482e-8d7b-b1ecf9419821" />
+
  - hiển thị giá trị mới nhất của các thông số đang giám sát, khi click vào thì hiển thị đồ thị lịch sử quá trình thay đổi (gọi grafana iframe để hiển thị)
  - backend: Sử dụng nodered để đọc dữ liệu từ các cảm biến (có thể dùng api online để lấy dữ liệu theo giời gian thực), 
    nodered sẽ lưu dữ liệu mới nhất (dạng update) vào cơ sở dữ liệu mariadb (sử dụng phpmyadmin để tạp table và quản trị lần đầu)
