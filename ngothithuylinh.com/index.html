@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Dashboard - Ngô Thị Thùy Linh</title>
+</head>
+<body>
+    <h1>Web IoT Ngô Thị Thùy Linh</h1>
+
+    <h2>Giá trị cảm biến mới nhất</h2>
+    <div id="sensorData">Đang tải...</div>
+
+    <h2>Đồ thị lịch sử</h2>
+    <iframe id="grafanaFrame" width="100%" height="400"></iframe>
+
+    <script>
+        // Lấy dữ liệu mới nhất từ Node-RED API
+        async function loadData() {
+            try {
+                let res = await fetch('http://ngothithuylinh.com:8088/nodered/data');
+                let data = await res.json();
+                document.getElementById('sensorData').innerText = JSON.stringify(data);
+
+                // Hiển thị Grafana iframe cho dashboard liên quan
+                document.getElementById('grafanaFrame').src = "http://ngothithuylinh.com:8088/grafana/d/your-dashboard-id";
+            } catch (err) {
+                document.getElementById('sensorData').innerText = "Không lấy được dữ liệu";
+            }
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
