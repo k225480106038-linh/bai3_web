@@ -28,7 +28,8 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
 3. Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau:mariadb (3306), phpmyadmin (8080), nodered/node-red (1880), influxdb (8086), grafana/grafana (3000), nginx (80,443)
 
-  <img width="934" height="575" alt="image" src="https://github.com/user-attachments/assets/cacad7f7-7c96-42e7-9eb2-da9204d7ddfe" />
+<img width="1917" height="951" alt="image" src="https://github.com/user-attachments/assets/c6602169-38fd-4e66-a281-0e37d8ac0a98" />
+
 
 4. Lập trình web frontend+backend:
  SV chọn 1 trong các web sau:
