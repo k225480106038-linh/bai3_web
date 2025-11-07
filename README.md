@@ -40,6 +40,7 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
    Chỉ cần login 1 lần, bao giờ logout thì mới phải login lại.
    <img width="1806" height="895" alt="image" src="https://github.com/user-attachments/assets/bd12cddf-1e61-482e-8d7b-b1ecf9419821" />
    <img width="1818" height="660" alt="image" src="https://github.com/user-attachments/assets/33debee5-3734-4e9c-9fff-20cc80e45d8b" />
+   <img width="1906" height="816" alt="image" src="https://github.com/user-attachments/assets/ee9f8dd6-d7f0-4769-bdbb-fdc34fa00331" />
 
 
  - hiển thị giá trị mới nhất của các thông số đang giám sát, khi click vào thì hiển thị đồ thị lịch sử quá trình thay đổi (gọi grafana iframe để hiển thị)
