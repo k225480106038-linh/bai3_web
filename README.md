@@ -61,3 +61,31 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 Yêu cầu sinh viên lưu code trên github
 có file readme.md có hình ảnh + text: ghi lại nhật ký quá trình làm bài.
 
+6. Kết luận.
+
+Trong quá trình thực hiện bài tập, em đã triển khai trực tiếp trên máy tính thật (host vật lý) chạy hệ điều hành Ubuntu, thay vì máy ảo. Điều này giúp hệ thống hoạt động ổn định hơn, tận dụng tốt hiệu năng phần cứng và giảm độ trễ khi truyền dữ liệu giữa các container.
+
+Em đã cài đặt và cấu hình đầy đủ môi trường Docker, sau đó sử dụng Docker Compose để triển khai thành công các dịch vụ:
+
+MariaDB và phpMyAdmin (quản lý cơ sở dữ liệu),
+
+Node-RED (xử lý dữ liệu cảm biến và cung cấp API),
+
+InfluxDB (lưu trữ dữ liệu lịch sử),
+
+Grafana (hiển thị biểu đồ trực quan),
+
+Nginx (máy chủ web trung tâm, reverse proxy).
+
+Ứng dụng web được xây dựng theo mô hình Single Page Application (SPA) với file index.html duy nhất, sử dụng JavaScript để xử lý giao diện động. Người dùng có thể đăng nhập, giám sát dữ liệu cảm biến theo thời gian thực, và xem đồ thị lịch sử được hiển thị trực quan thông qua Grafana.
+
+Hệ thống vận hành thông suốt:
+
+Node-RED chịu trách nhiệm thu thập, xử lý và lưu dữ liệu cảm biến vào MariaDB (dữ liệu mới nhất) và InfluxDB (dữ liệu lịch sử).
+
+Nginx đóng vai trò máy chủ trung tâm, giúp truy cập tất cả dịch vụ thông qua tên miền tùy chỉnh, đảm bảo tính thống nhất và chuyên nghiệp.
+
+Thông qua bài tập này, em đã nắm vững quy trình triển khai ứng dụng IoT trên nền Linux thật, từ cài đặt hệ điều hành, quản lý container đến cấu hình web server và bảo mật truy cập.
+Bài làm giúp em củng cố kiến thức về Docker, Nginx, Node-RED, và cơ sở dữ liệu, đồng thời rèn luyện tư duy hệ thống và kỹ năng tích hợp công nghệ thực tế – một bước quan trọng để ứng dụng vào các dự án Web – IoT trong tương lai.
+
+
